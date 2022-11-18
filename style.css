@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+/* header */
+header{
+    background-color: rgba(50, 140, 159, 0.08);
+}
+
+.header_content{
+    width: 1130px;
+    margin: 0px auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav{
+    margin-left: 100px;
+}
+
+.nav_link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #252525;
+    margin: 0 10px;
+}
+
+.nav_link:hover{
+    color: #2FABC7;
+    transition: 0.2s;
+}
+
+.log_btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(50, 140, 159, 0.04);
+    border: 2px #2FABC7 solid;
+    border-radius: 7px;
+    color: #2FABC7;
+    cursor: pointer;
+}
+
+.choose_btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 230px;
+    height: 40px;
+    background-color: #2FABC7;
+    border: 2px #2FABC7 solid;
+    border-radius: 7px;
+    color: #fff;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+/* main */
+
+/* first_block */
+.first_block{
+    width: 1130px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first_content_title{
+    width: 720px;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #252525;
+}
+
+.first_content_subtitle{
+    width: 290px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    font-size: 20px;
+    color: #2FABC7;
+}
+
+.time{
+    font-size: 18px;
+    color: #252525;
+}
+
+.first_content_btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 50px;
+    text-transform: uppercase;
+    width: 260px;
+    height: 50px;
+    background-color: #2FABC7;
+    border: 2px #2FABC7 solid;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.first_content_btn:hover{
+    background-color: #fff;
+    color: #2FABC7;
+    transition: 0.2s;
+}
+
+

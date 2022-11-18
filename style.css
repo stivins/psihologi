@@ -55,6 +55,12 @@ header{
     cursor: pointer;
 }
 
+.log_btn:hover{
+    background-color: #2FABC7;
+    color: #fff;
+    transition: 0.2s;
+}
+
 .choose_btn{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -68,6 +74,12 @@ header{
     color: #fff;
     margin-left: 5px;
     cursor: pointer;
+}
+
+.choose_btn:hover{
+    background-color: rgba(50, 140, 159, 0.08);
+    color: #2FABC7;
+    transition: 0.2s;
 }
 
 
@@ -129,6 +141,39 @@ header{
     background-color: #fff;
     color: #2FABC7;
     transition: 0.2s;
+}
+
+.second_block{
+    background-color: rgba(50, 140, 159, 0.08);
+}
+
+.statistic{
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.statistic_team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.statistic_title{
+    font-size: 32px;
+    font-weight: 600;
+    color: #252525;
+    padding-bottom: 10px;
+}
+
+.statistic_sub{
+    font-size: 20px;
+    font-weight: 600;
+    color: #838383;
+    
 }
 
 

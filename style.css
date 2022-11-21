@@ -858,13 +858,14 @@ p{
     }
 
     .menu__btn {
+        background-color: #b1d1e7;
         display: flex; 
         align-items: center; 
         position: fixed;
         top: 20px;
         right: 20px;
-        width: 26px;
-        height: 26px;
+        width: 30px;
+        height: 29px;
         cursor: pointer;
         z-index: 1;
     }
@@ -875,8 +876,8 @@ p{
         display: block;
         position: absolute;
         width: 100%;
-        height: 2px;
-        background-color: #616161;
+        height: 3px;
+        background-color: #f7f7f7;
     }
     .menu__btn > span::before {
         content: '';
@@ -899,8 +900,8 @@ p{
         padding: 80px 0;
         list-style: none;
         text-align: center;
-        background-color: #ECEFF1;
-        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        background-color: #b1d1e7;
+        box-shadow: 1px 0px 6px rgba(184, 184, 184, 0.2);
     }
     /* элементы меню */
     .menu__item {
@@ -908,12 +909,12 @@ p{
         padding: 12px 24px;
         color: #333;
         font-family: 'Roboto', sans-serif;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 600;
         text-decoration: none;
     }
     .menu__item:hover {
-        background-color: #CFD8DC;
+        background-color: #fff;
     }
     
     #menu__toggle:checked ~ .menu__btn > span {
@@ -1193,20 +1194,12 @@ p{
     /*  */
     
     .main_title{
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        width: 860px;
-        font-size: 60px;
-        font-weight: 500;
-        padding-top: 50px;
-        color: #252525;
+        width: 100%;
+        font-size: 30px;
     }
     
     .sertificat{
-        width: 1130px;
+        width: 90%;
         margin: 0 auto;
         border: #2FABC7 solid 2px;
         border-radius: 5px;
@@ -1215,38 +1208,29 @@ p{
     }
     
     .sertificat_title{
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        width: 860px;
-        font-size: 40px;
+        width: 100%;
+        font-size: 30px;
         font-weight: 500;
         padding-top: 50px;
-        
-        color: #2FABC7;
     }
     
     .sertificat_content{
+        flex-direction: column;
         display: flex;
         justify-content: center;
-        align-items: center;
-        width: 865px;
-        margin: 70px auto;
+        width: 90%;
+        margin: 40px auto;
     }
     
     .form{
-        font-family: 'Montserrat', sans-serif;
-        padding-right: 50px;
-        background-color: #fff;
-        
+        margin: 0 auto;
+        padding-right: 0px;
     }
     
     .inpput{
         font-family: 'Montserrat', sans-serif;
         font-size: 15px;
-        width: 280px;
+        width: 240px;
         height: 40px;
         border: solid 2px #2FABC7;
         border-radius: 5px;
@@ -1269,6 +1253,7 @@ p{
     }
     
     .submit{
+        order: 2;
         color: #fff;
         background-color: #2FABC7;
         border: solid 2px #2FABC7;
@@ -1276,18 +1261,20 @@ p{
         cursor: pointer;
         font-size: 13px;
         font-weight: 600;
-        padding: 10px 100px;
+        padding: 10px 80px;
         text-decoration: none;
     }
     
-    .submit:hover{
-        background-color: #fff;
-        color: #2FABC7;
-        transition: 0.2s;
-    }
-    
     .prize_code{
-        margin-left: 80px;
+        display: none;
+    }
+
+    .prize_code_mobile{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 200px;
+        margin-bottom: 20px;
     }
 }
 

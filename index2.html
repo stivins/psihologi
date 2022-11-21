@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header_content">
+            <img src="assets/logo.png" alt="" class="logo">
+            <div class="header_nav">
+                <a href="index.html" class="nav_link">главная</a>
+                <a href="index.html#prize" class="nav_link">подарочные сертификаты</a>
+            </div>
+            <div class="header_btn">
+                <button class="choose_btn">Выбрать психолога</button>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="main_title">Оформление подарочного сертификата</div>
+        <div class="sertificat">
+            <div class="sertificat_title">Сертификат на психотерапию</div>
+            <div class="sertificat_content">
+                <form class="form" action="getform.php" method="get"> 
+                    <input class="inpput" type="text" name="first_name" placeholder="имя отправителя"/><br />
+                    <input class="inpput" type="text" name="last_name" placeholder="имя получателя"/><br />
+                    <input class="inpput" type="email" name="user_email" placeholder="ваша почта"/><br />
+                    <p>на нее будет выслан сертификат</p><br> 
+                    Кол-во сессий:<br>
+                    <input class="person" type="radio" name="browser" > 1 - 2 800р<Br>
+                    <input class="person" type="radio" name="browser" > 3 - 8 500р<Br>
+                    <input class="person" type="radio" name="browser" > 5 - 14 200р<Br>
+                    <input class="person1" type="radio" name="browser" > 15 - 28 500р<Br>
+                    <a class="submit" href="">ОПЛАТИТЬ</a>
+                </form>
+                <img src="assets/prize.png" alt="" class="prize_code">
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <img src="assets/logo.png" alt="" class="logo">
+        <div class="footer_nav">
+            <div class="nav_column">
+                <a href="index.html" class="fot_link">главная</a>
+                <a href="" class="fot_link">подарочные сертификаты</a>
+            </div>
+            <div class="play_market">
+                <a href="" class="play_link">наше приложение</a>
+                <a href="http://apps.apple.com"><img  class="play_img" src="assets/google.png" alt=""></a>
+                <a href="http://apps.apple.com"><img class="play_img" src="assets/app.png" alt=""></a>
+            </div>
+            <div class="sotrud">
+                <div class="sotrud_title">сотрудничество</div>
+                <div class="sotrud_number">8 (999) 345 - 22 - 77</div>
+                <div class="sotrud_mail">brain@gmail.ru</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

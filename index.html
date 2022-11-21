@@ -14,14 +14,29 @@
             <img src="assets/logo.png" alt="" class="logo">
             <div class="header_nav">
                 <a href="" class="nav_link">главная</a>
-                <a href="" class="nav_link">подарочные сертификаты</a>
-                <a href="" class="nav_link">для психологов</a>
+                <a href="#prize" class="nav_link">подарочные сертификаты</a>
             </div>
             <div class="header_btn">
-                <button class="log_btn">вход</button>
-                <button class="choose_btn">Выбрать психолога</button>
+                <button class="choose_btn">Записаться на консультацию</button>
             </div>
+
+            <!-- burger -->
+
+            <div class="burger">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+                <ul class="menu__box">
+                  <li><a class="menu__item" href="#">Главная</a></li>
+                  <li><a class="menu__item" href="#">Проекты</a></li>
+                  <li><a class="menu__item" href="#">Команда</a></li>
+                </ul>
+            </div>
+
+            <!-- /burger -->
         </div>
+        <hr>
     </header>
     <main>
         <div class="first_block">
@@ -31,7 +46,7 @@
                     <div class="price">от 2800 за сессию</div>
                     <div class="time">~ 60 мин</div>
                 </div>
-                <button class="first_content_btn">подобрать  психолога</button>
+                <a href="" class="first_content_btn">подобрать  психолога</a>
             </div>
             <img src="assets/prevew_man.png" alt="" class="man_photo">
         </div>
@@ -81,12 +96,67 @@
         </div>
 
         <div class="four_block">
-            <title>Строгий отбор профессиональных психологов</title>
-            <img src="" alt="">
+            <div class="four_content">
+                <div class="four_title">Строгий отбор <span> профессиональных психологов</span> </div>
+                <img class="four_img" src="assets/team.png" alt="">
+                <div class="criteria">
+                    <div class="criteria_team">
+                        <div class="criteria_title">Образование</div>
+                        <div class="criteria_sub">Высшее психологическое, 
+                            гуманитарное и дополнительное психотерапевтическое 
+                            </div>
+                    </div>
+                    <div class="criteria_team">
+                        <div class="criteria_title">Опыт работы</div>
+                        <div class="criteria_sub">Просим подтверждение, что специалист 
+                            работает дольше 3 лет и проходит личную терапию
+                        </div>
+                    </div>
+                    <div class="criteria_team">
+                        <div class="criteria_title">Тест на этику</div>
+                        <div class="criteria_sub">Каждый специалист решает тест
+                             на этику и проходит строгое собеседование.</div>
+                    </div>
+                </div>
+                <a href="" class="four_btn">записаться на консультацию</a>
+            </div>
+        </div>
+
+        <img src="assets/firms.png" alt="" class="brends">
+        <img src="assets/brens_mobile.png" alt="" class="brends_mobile">
+
+        <div class="five_block">
+            <div id="prize" class="prize">
+                <div class="prize_txt">
+                    <div class="prize_title">Подарочный сертификат на психотерапию</div>
+                    <div class="prize_sub">Позаботьтесь о близком человеке — подарите ему сессию с психологом.</div>
+                    <a href="index2.html" class="prize_btn">Перейти к оформлению</a>
+                </div>
+                <img src="assets/подарок.png" alt="" class="prize_img">
+
+            </div>
         </div>
     </main>
+    <hr>
     <footer>
-
+        <img src="assets/logo.png" alt="" class="logo">
+        <div class="footer_nav">
+            <div class="nav_column">
+                <a href="index.html" class="fot_link">главная</a>
+                <a href="#prize" class="fot_link">подарочные сертификаты</a>
+            </div>
+            <div class="play_market">
+                <a href="" class="play_link">наше приложение</a>
+                <a href="http://apps.apple.com"><img  class="play_img" src="assets/google.png" alt=""></a>
+                <a href="http://apps.apple.com"><img class="play_img" src="assets/app.png" alt=""></a>
+                
+            </div>
+            <div class="sotrud">
+                <div class="sotrud_title">сотрудничество</div>
+                <div class="sotrud_number">8 (999) 345 - 22 - 77</div>
+                <div class="sotrud_mail">brain@gmail.ru</div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

@@ -831,7 +831,7 @@ p{
 /*  */
 /*  */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:760px) {
     .header_content{
         width: 100%;
         padding: 10px 10px;

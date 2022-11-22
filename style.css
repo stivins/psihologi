@@ -180,6 +180,9 @@ title{
     justify-content: center;
     margin-top: 50px;
 }
+.prize_code_mobile{
+    display: none;
+}
 
 .help{
     margin: 0 auto;
